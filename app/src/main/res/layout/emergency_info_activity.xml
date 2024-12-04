@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#CBE7CC"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="35dp"
+        android:text="EMERGENCY INFORMATION"
+        android:textColor="#00841D"
+        android:layout_marginStart="30dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_emergency_procedures"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#7AA683"
+                android:fontFamily="@font/inter_variable"
+                android:text="EMERGENCY PROCEDURES"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_emergency_contact"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#7AA683"
+                android:fontFamily="@font/inter_variable"
+                android:text="EMERGENCY CONTACT"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_evacuation_areas"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#7AA683"
+                android:fontFamily="@font/inter_variable"
+                android:text="EVACUATION AREAS"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_mobility_access_guide"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#7AA683"
+                android:fontFamily="@font/inter_variable"
+                android:text="MOBILITY ACCESS GUIDE"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00370C"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageButton
+            android:id="@+id/iv_campus_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="40dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/campus_map_desc"
+            android:src="@drawable/campus_icon" />
+
+        <ImageButton
+            android:id="@+id/iv_emergency"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/emergency_desc"
+            android:src="@drawable/emergency_icon" />
+
+        <ImageButton
+            android:id="@+id/iv_saved"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginEnd="40dp"
+            android:contentDescription="@string/saved_desc"
+            android:src="@drawable/saved_icon" />
+
+        <ImageButton
+            android:id="@+id/iv_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/profile_icon"
+            android:contentDescription="@string/profile_desc" />
+    </LinearLayout>
+
+</LinearLayout>

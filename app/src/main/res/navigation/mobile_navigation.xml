@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_campus_map">
+
+    <fragment
+        android:id="@+id/navigation_campus_map"
+        android:name="com.mobdeve.group5.archersnav.ui.activity.main.ui.campusmap.CampusMapFragment"
+        android:label="@string/title_campus_map"
+        tools:layout="@layout/fragment_campus_map" >
+        <!-- Action to navigate to FacilityFinderFragment -->
+        <action
+            android:id="@+id/action_campusMapFragment_to_facilityFinderFragment"
+            app:destination="@id/navigation_facility_finder" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_facility_finder"
+        android:name="com.mobdeve.group5.archersnav.ui.activity.main.ui.campusmap.facilityfinder.FacilityFinderFragment"
+        android:label="Facility Finder Fragment"
+        tools:layout="@layout/fragment_facility_finder" />
+
+    <fragment
+        android:id="@+id/navigation_emergency"
+        android:name="com.mobdeve.group5.archersnav.ui.activity.main.ui.emergency.EmergencyInformationFragment"
+        android:label="@string/title_emergency"
+        tools:layout="@layout/fragment_emergency" >
+        <action
+            android:id="@+id/action_navigation_emergency_to_navigation_evacuation_areas"
+            app:destination="@id/navigation_evacuation_areas" />
+        <action
+            android:id="@+id/action_navigation_emergency_to_navigation_mobility_access_guide"
+            app:destination="@id/navigation_mobility_access_guide" />
+        <action
+            android:id="@+id/action_navigation_emergency_to_navigation_emergency_contact"
+            app:destination="@id/navigation_emergency_contact" />
+        <action
+            android:id="@+id/action_navigation_emergency_to_navigation_emergency_procedures"
+            app:destination="@id/navigation_emergency_procedures" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_emergency_procedures"
+        android:name="com.mobdeve.group5.archersnav.ui.activity.main.ui.emergency.child.EmergencyProceduresFragment"
+        android:label="@string/title_emergency"
+        tools:layout="@layout/fragment_emergency_procedures" />
+
+    <fragment
+        android:id="@+id/navigation_emergency_contact"
+        android:name="com.mobdeve.group5.archersnav.ui.activity.main.ui.emergency.child.EmergencyContactFragment"
+        android:label="@string/title_emergency"
+        tools:layout="@layout/fragment_emergency_contact" />
+
+    <fragment
+        android:id="@+id/navigation_evacuation_areas"
+        android:name="com.mobdeve.group5.archersnav.ui.activity.main.ui.emergency.child.EvacuationAreasFragment"
+        android:label="@string/title_emergency"
+        tools:layout="@layout/fragment_evacuation_areas" />
+
+    <fragment
+        android:id="@+id/navigation_mobility_access_guide"
+        android:name="com.mobdeve.group5.archersnav.ui.activity.main.ui.emergency.child.MobilityAccessGuideFragment"
+        android:label="@string/title_emergency"
+        tools:layout="@layout/fragment_mobility_access_guide" />
+
+    <fragment
+        android:id="@+id/navigation_location"
+        android:name="com.mobdeve.group5.archersnav.ui.activity.main.ui.location.LocationFragment"
+        android:label="@string/title_locations"
+        tools:layout="@layout/fragment_location" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.mobdeve.group5.archersnav.ui.activity.main.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

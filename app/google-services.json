@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "16053238225",
+    "project_id": "archersnav",
+    "storage_bucket": "archersnav.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16053238225:android:ad8c9789dfa1f9191908f0",
+        "android_client_info": {
+          "package_name": "com.mobdeve.group5.archersnav"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDro9-cNjxWAT4L3TI89IQxblHUvkn5yv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

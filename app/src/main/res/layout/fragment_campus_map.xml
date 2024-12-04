@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".ui.activity.main.ui.campusmap.CampusMapFragment">
+
+    <!-- Title TextView -->
+
+    <!-- Buttons for Facility Finder and Real-Time Directions -->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:src="@drawable/dlsu_campus_map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_bloemen" />
+
+
+    <!-- Button for Henry Sy Building -->
+
+    <!-- Button for St. Joseph Hall -->
+
+    <Button
+        android:id="@+id/btn_henry_sy"
+        style="@style/LaSalleButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="Henry Sy Bldg"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_st_joseph"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_facility_finder" />
+
+    <Button
+        android:id="@+id/btn_st_joseph"
+        style="@style/LaSalleButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="St. Joseph Hall"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_henry_sy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_henry_sy"
+        app:layout_constraintTop_toTopOf="@+id/btn_henry_sy" />
+
+    <!-- Button for St. Miguel Hall -->
+
+    <!-- Button for Velasco Hall -->
+    <Button
+        android:id="@+id/btn_st_miguel"
+        style="@style/LaSalleButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="St. Miguel Hall"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_velasco"
+        app:layout_constraintTop_toBottomOf="@id/btn_st_joseph" />
+
+    <!-- Button for Br. John Hall -->
+    <Button
+        android:id="@+id/btn_velasco"
+        style="@style/LaSalleButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Velasco Hall"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_st_miguel"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_st_miguel" />
+
+    <Button
+        android:id="@+id/btn_br_john"
+        style="@style/LaSalleButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="Br. John Hall"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_velasco"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btn_velasco"
+        app:layout_constraintTop_toBottomOf="@id/btn_velasco" />
+
+    <!-- Button for St. La Salle -->
+    <Button
+        android:id="@+id/btn_st_la_salle"
+        style="@style/LaSalleButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="St. La Salle"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_st_miguel"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btn_st_miguel"
+        app:layout_constraintTop_toBottomOf="@+id/btn_st_miguel" />
+
+    <!-- Button for Br. Connon -->
+    <Button
+        android:id="@+id/btn_br_connon"
+        style="@style/LaSalleButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="Br. Connon"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_br_john"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btn_br_john"
+        app:layout_constraintTop_toBottomOf="@+id/btn_br_john" />
+
+    <!-- Button for Don Enrique Yuchengco -->
+    <Button
+        android:id="@+id/btn_enrique_yuchengco"
+        style="@style/LaSalleButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:singleLine="false"
+        android:text="Don Enrique\nYuchengco"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_st_la_salle"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btn_st_la_salle"
+        app:layout_constraintTop_toBottomOf="@+id/btn_st_la_salle" />
+
+    <!-- Button for Gokongwei Hall -->
+
+    <!-- Button for Br. Andrew -->
+    <Button
+        android:id="@+id/btn_gokongwei"
+        style="@style/LaSalleButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="Gokongwei Hall"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_br_connon"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btn_br_connon"
+        app:layout_constraintTop_toBottomOf="@+id/btn_br_connon" />
+
+    <!-- Button for Enrique Razon -->
+
+    <!-- Button for Science Technology Research Center -->
+    <Button
+        android:id="@+id/btn_br_andrew"
+        style="@style/LaSalleButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="Br. Andrew"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_enrique_yuchengco"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="@+id/btn_enrique_yuchengco"
+        app:layout_constraintTop_toBottomOf="@+id/btn_enrique_yuchengco" />
+
+    <Button
+        android:id="@+id/btn_enrique_razon"
+        style="@style/LaSalleButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="Enrique Razon"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_br_andrew"
+        app:layout_constraintStart_toStartOf="@+id/btn_br_andrew"
+        app:layout_constraintTop_toBottomOf="@id/btn_br_andrew" />
+
+    <Button
+        android:id="@+id/btn_science_tech_research"
+        style="@style/LaSalleButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:text="Science Technology\nResearch"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_gokongwei"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btn_gokongwei"
+        app:layout_constraintTop_toBottomOf="@+id/btn_gokongwei" />
+
+    <!-- Button for Bloemen Hall -->
+
+    <Button
+        android:id="@+id/btn_bloemen"
+        style="@style/LaSalleButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="Bloemen Hall"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_enrique_razon"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/btn_science_tech_research"
+        app:layout_constraintTop_toBottomOf="@+id/btn_enrique_razon" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="CAMPUS MAP"
+        android:textColor="#00841D"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_facility_finder"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_button"
+        android:padding="12dp"
+        android:text="Facility Finder"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_real_time_directions"
+        app:layout_constraintEnd_toStartOf="@+id/btn_real_time_directions"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_real_time_directions" />
+
+    <Button
+        android:id="@+id/btn_real_time_directions"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_button"
+        android:padding="12dp"
+        android:text="Real-Time Directions"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_facility_finder"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

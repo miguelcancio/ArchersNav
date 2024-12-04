@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#CBE7CC"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Title TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="20dp"
+        android:text="REAL TIME DIRECTIONS"
+        android:textColor="#00841D"
+        android:layout_marginStart="30dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Input Section for Location and Destination -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <!-- Current Location Input -->
+        <EditText
+            android:id="@+id/et_current_location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:hint="Current Location"
+            android:background="@drawable/edit_text_background"
+            android:padding="10dp"
+            android:textColor="#000000" />
+
+        <!-- Destination Input -->
+        <EditText
+            android:id="@+id/et_destination"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Destination"
+            android:background="@drawable/edit_text_background"
+            android:padding="10dp"
+            android:layout_marginStart="8dp"
+            android:textColor="#000000" />
+
+        <!-- Search Button -->
+        <ImageButton
+            android:id="@+id/btn_search"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/directions_search"
+            android:contentDescription="Search Directions" />
+    </LinearLayout>
+
+    <!-- Step-by-step Directions Section -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Placeholder for directions -->
+            <TextView
+                android:id="@+id/tv_directions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Step-by-step directions will appear here..."
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:padding="8dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00370C"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageButton
+            android:id="@+id/iv_campus_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="40dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/campus_map_desc"
+            android:src="@drawable/campus_icon" />
+
+        <ImageButton
+            android:id="@+id/iv_emergency"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/emergency_desc"
+            android:src="@drawable/emergency_icon" />
+
+        <ImageButton
+            android:id="@+id/iv_saved"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginEnd="40dp"
+            android:contentDescription="@string/saved_desc"
+            android:src="@drawable/saved_icon" />
+
+        <ImageButton
+            android:id="@+id/iv_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/profile_icon"
+            android:contentDescription="@string/profile_desc" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="semi_transparent_green">#7AA683</color>
+
+    <color name="dlsu_green">#00743F</color> <!-- Main green -->
+    <color name="dlsu_green_dark">#005C34</color> <!-- Darker shade for pressed state -->
+    <color name="dlsu_white">#FFFFFF</color> <!-- White -->
+    <color name="dlsu_button_text_color">#FFFFFF</color> <!-- Text color -->
+</resources>

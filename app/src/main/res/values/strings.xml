@@ -1,0 +1,334 @@
+<resources>
+    <!-- Existing strings -->
+    <string name="app_name">ArchersNav</string>
+    <string name="logo_desc">Description of the logo</string>
+    <string name="top_image_desc">Description of the top image</string>
+    <string name="spinner_icon_desc">Role Icon</string>
+    <string name="select_role">Select Role</string>
+    <string name="campus_map_desc">Campus Map</string>
+    <string name="emergency_desc">Emergency</string>
+    <string name="saved_desc">Saved</string>
+    <string name="profile_desc">Profile</string>
+
+    <string-array name="roles_array">
+        <item>Student</item>
+        <item>Professor</item>
+    </string-array>
+
+    <!-- Updated strings for profile activity and edit profile -->
+    <string name="profile_username">test username</string>
+    <string name="profile_email">test@example.com</string>
+    <string name="preferences">Preferences</string>
+    <string name="push_notifications">Push notifications</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_username">Change Username</string>
+    <string name="logout">Logout</string>
+    <string name="profile_title">PROFILE</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="username_label">Username</string>
+    <string name="username_hint">Enter your username</string>
+    <string name="email_label">Email</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="save_changes">Save Changes</string>
+
+    <!-- Facility descriptions -->
+    <string name="bloemen_hall_desc">Bloemen Hall</string>
+    <string name="br_andrew_desc">Br. Andrew</string>
+    <string name="br_joseph_desc">Br. Joseph</string>
+    <string name="connon_hall_desc">Connon Hall</string>
+    <string name="la_salle_desc">La Salle</string>
+    <string name="mutien_marie_desc">Mutien Marie</string>
+    <string name="razon_desc">Razon</string>
+    <string name="st_miguel_desc">St. Miguel</string>
+    <string name="strc_desc">STRC</string>
+    <string name="velasco_desc">Velasco</string>
+    <string name="william_hall_desc">William Hall</string>
+    <string name="henry_sy_desc">DLSU Henry Sy Sr. Hall</string>
+    <string name="br_john_desc">Br. John Hall</string>
+    <string name="yuchengco_desc">Yuchengco</string>
+
+    <!-- Facility Name -->
+    <string name="bloemen_hall">Br. Bloemen Hall</string>
+    <string name="br_andrew">Br. Andrew Gonzales Halls</string>
+    <string name="br_joseph">Br. Joseph Hall</string>
+    <string name="connon_hall">Br. Connon Hall</string>
+    <string name="la_salle">St. La Salle Hall</string>
+    <string name="mutien_marie">St. Mutien Marie Hall</string>
+    <string name="razon">Enrique M. Razon Sports Center</string>
+    <string name="st_miguel">St. Miguel Hall</string>
+    <string name="strc">Science and Technology Research Center</string>
+    <string name="velasco">Velasco Hall</string>
+    <string name="william_hall">William Hall</string>
+    <string name="henry_sy">DLSU Henry Sy Sr. Hall</string>
+    <string name="br_john">Br. John Hall</string>
+    <string name="yuchengco">Don Enrique T. Yuchengco Hall</string>
+    <string name="gokongwei">Gokongwei Hall</string>
+
+    <string name="add_contact">Add Contact</string>
+    <string name="emergency_navigation">Emergency Navigation</string>
+    <string name="help_support">Help and Support</string>
+    <string name="evacuation_plan_desc">Evacuation Plan</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_campus_map">Campus Map</string>
+    <string name="title_emergency">Emergency</string>
+    <string name="title_locations">Locations</string>
+    <string name="title_profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="henry_sy_details">Henry Sy Sr. Hall, also known as “Henry” among students, is a 14-story building located in the middle of the campus, and is situated in between two historical buildings, the St. La Salle Hall and the Velasco Hall. The HSSH was built on the concept of a “habitable tree,” illustrating the University\'s growing role in education and its commitment to environmental sustainability. The construction of the building began in 2010 as part of the University\'s Centennial Renewal Plan, and it has been considered as the “Most Prominent Project”. The building, and its grounds, which is known as the Corazon Aquino Democratic Space or CADS, were formally inaugurated in February 2012.</string>
+
+    <string name="st_joseph_hall_details">The St. Joseph Hall which is commonly called as “SJ” is a six-story structure home to the College of Science. It features classrooms and laboratories, and it formerly served as the university\'s main library.</string>
+
+    <string name="st_miguel_hall_details">The St. Miguel Hall, completed in 1969, contains academic departments and engineering laboratories. Originally called St. Benilde Hall, it was renamed in honor of St. Michael.</string>
+
+    <string name="velasco_hall_details">It is a five-story building constructed in 1981 and houses the College of Engineering. It includes specialized laboratories and classrooms for engineering students. It also caters to students taking GE subjects.</string>
+
+    <string name="br_john_hall_details">One of the “isolated” buildings on campus. It is located right beside South Gate, near McDonald\'s. The building is named after Br. Celba John, FSC.</string>
+
+    <string name="st_la_salle_hall_details">The St. La Salle Hall (LS) is the oldest building on campus, completed in 1924 and designed by Tomás Mapúa. This neoclassical, H-shaped structure is known for its white façade along Taft Avenue and serves as De La Salle University\'s most historic building. The four-story hall houses classrooms, offices, and key areas like The Most Blessed Sacrament Chapel on the second floor and the Lasallian Brothers\' residence on the fourth. The ground floor features Perico\'s cafeteria and Gate 1. Retrofitted between 2010-2012 for disaster resilience, the building hosts the College of Business and the School of Economics.</string>
+
+    <string name="br_connon_hall_details">The Br. Gabriel Connon Hall, named after former DLSU President Br. Hyacinth Gabriel Connon, FSC, is a 5-story building that houses various student services and administrative offices. These include the University Clinic, the Office for Counseling and Career Services (OCCS), and the Office of Student Affairs. The building also provides spaces for student organizations, including the University Student Government, the Council of Student Organizations, student media groups, and the University\'s performing arts groups. On the ground floor, the Waldo Perfecto Seminar Room is also located.</string>
+
+    <string name="yuchengco_hall_details">Don Enrique T. Yuchengco Hall, commonly called “Yuch,” was completed in 2002 and originally named the Central Administration Building. Students here are mixed but mostly shared by RVR-COB, SOE, and CLA. This was built with support from Ambassador Alfonso Yuchengco in honor of his father. The building houses the University\'s central administrative offices. It features an art gallery on the second floor and a state-of-the-art auditorium on the third. Described by Br. Rolando Dizon FSC as the “nerve center” of the University, it serves as a hub for university activities, including theater and teleconference rooms.</string>
+
+    <string name="gokongwei_hall_details">The Gokongwei Hall commonly called “Goks” is home to the College of Computer Studies and features technology-focused facilities. It underwent major renovations in recent years to modernize its interiors.</string>
+
+    <string name="br_andrew_hall_details">Completed in 2006, Br. Andrew Gonzales Hall is a 20-story building that serves the College of Education. It is the tallest academic building in the Philippines.</string>
+
+    <string name="enrique_razon_hall_details">Built in 1998, this multi-purpose sports facility includes an Olympic-sized pool, track and field oval, table tennis tables, and various courts.</string>
+
+    <string name="science_technology_research_center_details">A facility dedicated to advanced research, housing laboratories and supporting projects from the Colleges of Science and Engineering.</string>
+
+    <string name="bloemen_hall_details">Named after Br. Alphonse Bloemen, FSC, this building serves as the University\'s student center. It houses the University\'s student entrepreneurship area known as the Animo Business Innovation Zone, or Animo BIZ, where student kiosks could be found. The building also features food and drink stalls, making it a spot for students to grab a bite or drink, much like a cafeteria.</string>
+
+    <string name="fire_emergency">Fire Emergency</string>
+    <string name="fire_emergency_procedure">
+        <![CDATA[
+        This fire emergency procedure outlines the necessary actions to ensure the safety of all students, faculty, and staff in case of a fire emergency at the school.
+        It aims to prevent injury, loss of life, and property damage by ensuring that everyone knows their responsibilities and actions during a fire.<br><br>
+
+        <b>1. Fire Prevention Measures</b><br>
+        Preventing fires is the first line of defense. Schools must take the following steps to minimize fire risks:<br><br>
+        <b>Regular Fire Drills:</b> <br>Conduct fire drills at least once every quarter to familiarize everyone with the procedure.<br>
+        <br><b>Maintenance of Fire Safety Equipment:</b><br> Ensure all fire extinguishers, alarms, sprinkler systems, and fire exits are in good working condition.<br>
+        <br><b>Electrical Safety:</b><br> Regularly check all electrical wiring and appliances to prevent short circuits or overheating.<br>
+        <br><b>Clear Exits:</b><br> Keep fire exits and escape routes clear of obstructions at all times.<br><br>
+
+        <b>2. Immediate Actions in Case of Fire</b><br>
+        If you discover a fire or hear the fire alarm:<br><br>
+
+        <b>A. For Students and Teachers:</b><br><br>
+        <b>Stay Calm and Alert:</b><br> Immediately stop any activity and remain calm. Panic can lead to accidents and confusion.<br>
+        <br><b>Activate the Fire Alarm:</b> <br>If the fire alarm hasn\'t gone off, pull the nearest alarm station or notify a teacher or staff member about the fire.<br>
+        <b><br>Evacuate the Building:</b><br><br>
+        <b>Follow Evacuation Plan:</b> <br>Go to the nearest designated exit. Teachers must lead students to the assembly area.<br>
+        <br><b>Stay Low if There is Smoke:</b> <br>If smoke is present, crouch down and cover your nose and mouth with a cloth.<br>
+        <br><b>Do Not Use Elevators:</b><br> Always use stairwells. Elevators may malfunction during a fire.<br>
+        <br><b>Do Not Push or Shove:</b><br> Help each other stay orderly during the evacuation.<br>
+        <br><b>Do Not Return for Belongings:</b> <br>Leave all personal items behind to ensure a faster evacuation.<br>
+        <br><b>Go to the Assembly Area:</b> <br>Teachers must check that all students are accounted for in the designated safe zone.<br><br>
+
+        <b>B. For Teachers and Staff:</b><br><br>
+        <b>Alert the School\'s Fire Emergency Response Team:</b> <br>If a fire is detected in the classroom, call the school’s emergency number or activate the fire alarm immediately.<br>
+        <br><b>Ensure Students are Safely Evacuated:</b> <br>Lead students to the designated assembly point. Verify that all students are out of the building, especially if there are students with special needs.<br>
+        <br><b>Direct Students Away from the Fire Zone:</b><br> Move them to a safe distance, away from the building or fire trucks.<br>
+        <br><b>Close Doors and Windows:</b><br> If safe, close all doors and windows in classrooms to prevent the fire from spreading.<br>
+        <br><b>Assist with the Fire Department\'s Arrival:</b><br> Guide fire responders to the affected area upon their arrival, providing details about the fire\'s location and any potential hazards.<br><br>
+
+        <b>3. Special Considerations</b><br>
+        <b>People with Disabilities:</b> <br>Teachers should be aware of students or staff who may need assistance evacuating, such as those with physical disabilities, hearing or visual impairments, or other special needs.<br>
+        <br><b>Small Children:</b> <br>In elementary schools, teachers and staff must ensure that small children are safely escorted and accounted for, paying extra attention to potential confusion.<br><br>
+
+        <b>4. Fire Safety Equipment and Fire Response Team (FRT)</b><br>
+        The school should have a Fire Response Team (FRT) trained to handle basic firefighting tasks if needed and responsible for conducting fire drills, maintaining fire safety equipment, and leading emergency responses.<br><br>
+        <b>Fire Safety Equipment Checklist:</b><br><br>
+        Fire Extinguishers<br>
+        Fire Blankets<br>
+        Fire Alarms<br>
+        Smoke Detectors<br>
+        Emergency Lighting<br>
+        First Aid Kits<br><br>
+
+        <b>5. After the Evacuation</b><br><br>
+        <b>Do Not Re-enter the Building Until Cleared:</b> <br>Only authorities can determine when it is safe.<br>
+        <br><b>Report Missing or Injured Individuals:</b><br> Report any missing persons to the fire department or emergency responders.<br>
+        <br><b>Medical Assistance:</b><br> Provide first aid if needed and call for medical help if necessary.<br>
+        <br><b>Debriefing:</b> <br>Conduct a meeting with all students and staff to discuss the event.<br><br>
+
+        <b>6. Post-Incident Actions</b><br><br>
+        <b>Investigate the Cause of the Fire:</b> <br>An investigation will take place to identify the cause.<br>
+        <br><b>Psychological Support:</b><br> Ensure counseling services are available.<br>
+        <br><b>Review and Improve the Fire Safety Plan:</b> <br>Update the fire safety plan regularly based on lessons learned.<br><br>
+
+        <b>7. Emergency Contacts</b><br><br>
+        <b>School Fire Emergency Contact Number:</b><br> [Insert School’s Emergency Number]<br><br>
+        <b>Local Fire Department:</b><br> [Insert Local Fire Department Number]<br><br>
+        <b>Ambulance/Medical Emergency:</b><br> [Insert Ambulance/Medical Emergency Number]<br><br>
+        <b>Philippine National Police (PNP):</b> 117<br><br>
+
+        <b>REMEMBER:</b> Safety is everyone\'s responsibility. Stay alert, stay prepared, and always follow the school’s fire safety plan.<br><br>
+
+        This fire emergency procedure should be shared with all students, staff, and parents. Regular fire drills must be conducted to ensure familiarity with the procedure and the ability to respond appropriately during an emergency.
+        ]]>
+    </string>
+    <string name="earthquake_emergency">Earthquake</string>
+    <string name="earthquake_procedure_text">
+
+    </string>
+    <string name="bullying_emergency">Violence or Bullying</string>
+    <string name="bullying_prevention_procedure_text">
+
+    </string>
+    <string name="bomb_threat_emergency">Bomb Threat</string>
+    <string name="bomb_threat_procedure_text">
+        <![CDATA[
+        In the event of a bomb threat at a school, it is critical to follow a well-organized set of emergency procedures to ensure the safety of all students, staff, and visitors. These procedures should be communicated clearly to all members of the school community, with regular drills to ensure everyone knows how to respond in an emergency situation.<br><br><br>
+
+        <b>1. Receive and Assess the Threat</b><br><br>
+        <b>If the Threat is Received via Phone:</b><br><br>
+        <b>Stay Calm:</b> <br>Answer the phone in a calm and professional manner.<br><br>
+        <b>Gather Information:</b><br> Location, detonation time, bomb type, etc.<br><br>
+        Record time of the call.<br><br>
+        Listen for background noise or clues to the caller’s identity.<br><br>
+        Do not hang up.<br><br>
+
+        <b>If the Threat is Written:</b><br>
+        Do not handle the note to preserve evidence.<br>
+        Secure the note and report to authorities immediately.<br><br>
+
+        <b>2. Alert Authorities</b><br><br>
+        <b>Contact Local Law Enforcement:</b><br>
+        Call the nearest police station and provide all gathered details.<br><br>
+        Request a bomb disposal unit if needed.<br><br>
+        <b>Notify School Officials:</b><br>
+        Alert the school officials or emergency response team leader.<br><br>
+        Communicate the urgency of the situation.<br><br>
+
+        <b>3. Activate Emergency Protocols</b><br><br>
+        <b>Evacuate the School:</b><br>
+        Follow the school’s evacuation plan.<br>
+        Use pre-designated evacuation routes; avoid elevators.<br><br>
+        Move to an assembly area at least 500 meters from the building.<br><br>
+        Take attendance to ensure everyone is accounted for.<br><br>
+
+        <b>Communicate Clearly:</b><br>
+        Use PA system or other tools to give clear instructions.<br><br>
+        Stay calm and avoid panic.<br><br>
+
+        <b>4. Conduct a Search</b><br><br>
+        <b>Work with Authorities:</b><br> Allow law enforcement to conduct a search.<br><br>
+        <b>Do Not Touch Suspicious Objects:</b><br> Report anything suspicious to the authorities.<br><br>
+
+        <b>5. Evaluate the Situation</b><br><br>
+        <b>Wait for All Clear:</b><br> Return to the building only after law enforcement declares it safe.<br><br>
+        <b>Monitor for Updates:</b><br> Stay in contact with law enforcement for updates.<br><br>
+
+        <b>6. Post-Incident Response</b><br><br>
+        <b>Account for All Students and Staff:</b> Reconfirm attendance once safe.<br><br>
+        <b>Provide Support:</b> Offer counseling services to address anxiety and stress.<br><br>
+
+        <b>7. Follow-Up and Report</b><br><br>
+        <b>Complete Incident Reports:</b><br> File official reports with law enforcement and internally.<br><br>
+        <b>Review the Situation:</b><br> Conduct a debriefing session with key personnel.<br><br>
+        <b>Notify Parents and Guardians:</b><br> Provide details on the threat and response actions.<br><br>
+
+        <b>Emergency Contacts:</b><br><br>
+        <b>Local Police Station:</b> [Insert contact number]<br><br>
+        <b>Bomb Disposal Unit:</b> [Insert contact number]<br><br>
+        <b>Local Emergency Services:</b> [Insert contact number]<br><br>
+        <b>Nearest Hospital:</b> [Insert contact number]<br><br>
+
+        <b>REMEMBER:</b><br><br>
+        Do not use mobile phones during evacuation as they may trigger detonators.<br><br>
+        Preserve evidence, such as phone call recordings or notes.<br><br>
+        Regularly conduct bomb threat response drills.<br><br>
+
+        By following these steps, the school can minimize risk and ensure a quick, organized response, prioritizing safety.<br><br>
+        ]]>
+    </string>
+    <string name="health_emergency">Health Emergencies</string>
+    <string name="health_emergency_procedure_text">
+        <![CDATA[
+        In any school setting, health emergencies can occur unexpectedly, and it’s essential to have clear, well-practiced procedures in place to respond quickly and effectively.<br><br>
+        These procedures should cover a wide range of potential health emergencies, from minor injuries to more serious medical events like heart attacks, seizures, or allergic reactions.<br><br>
+
+        <b>1. General Procedures for Health Emergencies</b><br><br>
+        <b>A. Stay Calm and Assess the Situation</b><br><br>
+        <b>Stay Calm:</b><br> Keep a level head to effectively manage the situation.<br><br>
+        <b>Assess the Emergency:</b><br> Quickly evaluate the situation. Determine if the emergency is life-threatening (e.g., heart attack, severe bleeding, severe allergic reaction, etc.) or if it can be handled with basic first aid (e.g., cuts, bruises, or minor injuries).<br><br>
+
+        <b>B. Call for Help</b><br><br>
+        <b>Immediately Alert the School Nurse:</b><br> If available, contact the school nurse or first aider. They should be the first point of contact for most health emergencies.<br><br>
+        <b>Call Emergency Services (Ambulance):</b><br> For serious emergencies, call 911 immediately and provide clear details about the situation, including:<br>
+        <br>- Location of the school<br>
+        - Type of emergency<br>
+        - Condition of the person involved<br>
+        - Any known medical conditions (if applicable)<br><br>
+
+        <b>C. Ensure Safety and Comfort</b><br><br>
+        <b>Move to a Safe Area:</b><br> If the individual is in an unsafe location, move them to a safe area, but only if it does not worsen the situation.<br>
+        <b>Comfort the Individual:</b><br> If the person is conscious, keep them calm and reassure them that help is on the way.<br><br>
+
+        <b>2. Specific Health Emergencies and Response Procedures</b><br><br>
+        <b>A. Severe Allergic Reaction (Anaphylaxis)</b><br><br>
+        <b>Recognize Symptoms:</b><br> Swelling of the face, lips, throat, difficulty breathing, dizziness, or rash.<br>
+        <b>Administer Epinephrine:</b><br> If the person has a prescribed epinephrine auto-injector, administer it immediately. Call for medical assistance.<br>
+        <b>Stay with the Person:</b><br> Monitor the individual closely while awaiting help.<br><br>
+
+        <b>B. Asthma Attack</b><br><br>
+        <b>Recognize Symptoms:</b><br> Difficulty breathing, wheezing, coughing.<br>
+        <b>Administer Inhaler:</b><br> If the person has a prescribed inhaler, help them use it. Call for medical help if symptoms worsen.<br>
+        <b>Monitor Breathing:</b><br> Encourage slow, deep breaths.<br><br>
+
+        <b>C. Seizures</b><br><br>
+        <b>Recognize Symptoms:</b><br> Convulsions, shaking, or unconsciousness.<br>
+        <b>Protect the Person:</b><br> Move objects that could cause injury. Place a soft item under their head.<br>
+        <b>Do Not Restrain:</b><br> Allow the seizure to occur naturally.<br>
+        <b>Time the Seizure:</b><br> Call for help if it lasts more than 5 minutes.<br><br>
+
+        <b>D. Heart Attack or Chest Pain</b><br><br>
+        <b>Recognize Symptoms:</b><br> Chest pain, dizziness, or pain spreading to the arms, back, neck, or jaw.<br>
+        <b>Call for Help:</b><br> Immediately call 911.<br>
+        <b>Comfort the Person:</b><br> Help them stay calm and seated. Avoid lying down unless necessary.<br><br>
+
+        <b>E. Severe Bleeding</b><br><br>
+        <b>Control the Bleeding:</b><br> Apply direct pressure to the wound. Elevate the injury if possible.<br>
+        <b>Cover the Wound:</b><br> Use a sterile bandage after bleeding is controlled.<br>
+        <b>Seek Medical Help:</b><br> Call for an ambulance if bleeding is uncontrollable.<br><br>
+
+        <b>F. Broken Bones or Sprains</b><br><br>
+        <b>Recognize Symptoms:</b><br> Swelling, deformity, or inability to move the limb.<br>
+        <b>Do Not Move the Person:</b><br> Immobilize the affected area with a splint or makeshift support.<br>
+        <b>Seek Medical Attention:</b><br> Call for medical assistance.<br><br>
+
+        <b>G. Heatstroke or Heat Exhaustion</b><br><br>
+        <b>Recognize Symptoms:</b><br> Dizziness, sweating, nausea, confusion, or rapid pulse.<br>
+        <b>Move to a Cooler Place:</b><br> Provide water and cool the person with damp cloths.<br>
+        <b>Seek Medical Help:</b><br> Call for an ambulance if symptoms persist.<br><br>
+
+        <b>3. General First Aid for Minor Injuries</b><br><br>
+        <b>A. Cuts and Scrapes</b><br><br>
+        <b>Clean the Wound:</b><br> Wash with clean water and mild soap.<br>
+        <b>Stop the Bleeding:</b><br> Apply pressure and cover with a bandage.<br><br>
+
+        <b>B. Burns</b><br><br>
+        <b>Cool the Burn:</b><br> Run cool water over the burn for 10-15 minutes.<br>
+        <b>Cover the Burn:</b><br> Use a sterile bandage after cooling.<br>
+        <b>Seek Medical Help:</b><br> Call for help if the burn is severe.<br><br>
+
+        <b>4. School Emergency Contacts</b><br><br>
+        <b>Ambulance:</b> 911<br>
+        <b>Local Police Station:</b> [Insert contact number]<br>
+        <b>Fire Department:</b> [Insert contact number]<br>
+        <b>School Health Office:</b> [Insert contact number]<br><br>
+
+        <b>5. Post-Emergency Procedures</b><br><br>
+        <b>A. Report the Incident:</b><br> Document and inform the appropriate parties.<br>
+        <b>B. Notify Parents/Guardians:</b><br> Update them about the situation.<br>
+        <b>C. Counseling and Support:</b><br> Provide emotional support as needed.<br>
+        <b>D. Review Procedures:</b><br> Improve response protocols.<br><br>
+
+        By having clear procedures in place, schools can respond effectively to health emergencies and ensure the safety of students and staff.
+        ]]>
+    </string>
+</resources>
